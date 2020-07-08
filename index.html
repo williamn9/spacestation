@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<title>SpaceStation UX UI Design Framework</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<style>
+    body {
+        font-family: "Roboto", sans-serif;
+    }
+
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        color: #10416c;
+    }
+
+    h5 {
+        font-weight: 900;
+    }
+
+
+
+    h6 {
+        color: #F4364C;
+        font-weight: 900;
+        font-size: 20pt;
+    }
+
+    .w3-bar-block .w3-bar-item {
+        padding: 16px;
+        font-weight: bold;
+    }
+
+
+    .w3-theme-l5 {
+        color: #000 !important;
+        background-color: #ffffff !important
+    }
+
+    .w3-theme-l4 {
+        color: #000 !important;
+        background-color: #f2f6f8 !important
+    }
+
+    .w3-theme-l3 {
+        color: #000 !important;
+        background-color: #d1dde6 !important
+    }
+
+    .w3-theme-l2 {
+        color: #fff !important;
+        background-color: #5d7c9d !important
+    }
+
+    .w3-theme-l1 {
+        color: #fff !important;
+        background-color: #567494 !important
+    }
+
+    .w3-theme-d1 {
+        color: #fff !important;
+        background-color: #3949a3 !important
+    }
+
+    .w3-theme-d2 {
+        color: #fff !important;
+        background-color: #334191 !important
+    }
+
+    .w3-theme-d3 {
+        color: #fff !important;
+        background-color: #2d397f !important
+    }
+
+    .w3-theme-d4 {
+        color: #fff !important;
+        background-color: #26316d !important
+    }
+
+    .w3-theme-d5 {
+        color: #fff !important;
+        background-color: #20295b !important
+    }
+
+    .w3-theme-light {
+        color: #000 !important;
+        background-color: #f3f4fb !important
+    }
+
+    .w3-theme-dark {
+        color: #fff !important;
+        background-color: #20295b !important
+    }
+
+    .w3-theme-action {
+        color: #fff !important;
+        background-color: #20295b !important
+    }
+
+    .w3-theme {
+        color: #fff !important;
+        background-color: #10416c !important
+    }
+
+    .w3-text-theme {
+        color: #10416C !important
+    }
+
+    .w3-border-theme {
+        border-color: #e72742 !important
+    }
+
+    .w3-hover-theme:hover {
+        color: #fff !important;
+        background-color: #10416C !important
+    }
+
+    .w3-hover-text-theme:hover {
+        color: #10416C !important
+    }
+
+    .w3-hover-border-theme:hover {
+        border-color: #10416C !important
+    }
+
+    .material-icons {
+        vertical-align: -14%
+    }
+
+</style>
+
+<body>
+
+    <nav class="w3-sidebar w3-bar-block w3-collapse w3-animate-left w3-card w3-theme" style="z-index:3;width:250px;" id="mySidebar">
+        <a class="w3-bar-item w3-button w3-border-bottom w3-large" href="#">Space<span style="color: #F4364C;">Station</span> Design Framework</a>
+        <a class="w3-bar-item w3-button w3-hide-large w3-large" href="javascript:void(0)" onclick="w3_close()">Close <i class="fa fa-remove"></i></a>
+        <a class="w3-bar-item w3-button" href="#">Design Framework</a>
+        <a class="w3-bar-item w3-button" href="#">Link 1</a>
+        <a class="w3-bar-item w3-button" href="#">Link 2</a>
+
+    </nav>
+
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+    <div class="w3-main" style="margin-left:250px;">
+
+        <div id="myTop" class="w3-container w3-top w3-theme-l5 w3-large">
+            <p><i class="fa fa-bars w3-button w3-theme-l5 w3-hide-large w3-xlarge" onclick="w3_open()"></i>
+                <span id="myIntro" class="w3-hide">UX Design Framework</span></p>
+        </div>
+
+        <header class="w3-container w3-theme-l5" style="padding:64px 32px">
+            <h1 class="w3-xxxlarge">Design Framework</h1>
+        </header>
+
+
+
+        <div class="w3-container w3-theme-l3" style="padding:32px">
+
+            <div class="w3-container w3-theme-l4 w3-border-theme">
+                <h5>What is the Design System</h5>
+                <!-- <hr style="width: 150px; border-color: #ff0000; margin:0px;border-width:2px;">-->
+
+                <p>The SpaceStation UX Design System is essentially a centralized, standardized, and reusable collection of user interface components (buttons, inputs, menbacus, etc.) visual styles, usage guidelines, and code that is all aligned. The system should be followed when building a business applications, so that our users can have a consistent experience when using our products.</p>
+
+                <p>From technical perspectives, using the Design System will speed up the development process by reusing components. Communications between design and development teams will be steamlined by using the same terminologies.</p>
+
+                <p><a href="https://material.io/" target="_blank">Material Design</a> is selected among various publicly available Design Systems for its popularity, it is used by many Google products, and hence the users of those application would found the design familiar, making the app easier to learn. Also, having the support from a big corporation  means better for continuity.</p>
+            </div>
+
+
+            <br>
+
+
+
+            <div class="w3-container w3-theme-l4 w3-border-theme">
+                <h5>Design Principles </h5>
+            </div>
+            <div class="w3-container w3-theme-l4 ">
+
+
+
+
+
+                <h6>
+                    "Efficiency"</h6>
+
+
+                <h6>"Risk Reduction"</h6>
+<p>Design principles help to guide and steer a design throughout the design process. At each point of the process it should be possible to consider and review a design in the context of a shared set of principles.</p>
+                <p>For example, when we need to choose between a design that favors Efficiency and a design that favors Viewing Comfort, we will take the one for Efficiency.
+                </p>
+                <p>Efficiency could means see more with less clicks and scroll.</p>
+            </div>
+
+    <br>
+            <div class="w3-container w3-theme-l4 w3-border-theme">
+                <h5>Design and Component Guidance </h5>
+            </div>
+            <div class="w3-container w3-theme-l4 ">
+
+
+                <p>Unless otherwise specified in this document, we shall adopt the <a href="https://material.io/design" target="_blank">Design</a> and <a href="https://material.io/components" target="_blank">Component</a> guidelines from Material Design.</p>
+            </div>
+            <br>
+
+            <div class="w3-container w3-theme-l4 w3-border-theme">
+
+                <h5>Wireframe </h5>
+            </div>
+            <div class="w3-container w3-theme-l4 ">
+
+                <p><i class="material-icons">view_quilt</i> <a href="https://c7n6n8.axshare.com/#id=a5vrg3&p=01000_landing_page" target="_blank">Sample Interactive Wireframe</a></p>
+                <p><i class="material-icons">cloud_download</i> <a href="#">Download Wireframe Library</a> (WIP)
+
+
+
+            </div>
+            <br>
+
+            <div class="w3-container w3-theme-l4 w3-border-theme">
+
+                <h5>SpaceStation Theme </h5>
+            </div>
+            <div class="w3-container w3-theme-l4 ">
+
+                <p>All business applications from the organization should use the same theme for styling. This theme references the organization's <a href="#">Branding Guideline</a> (WIP) on color usages, and <a href="#">Website Style Guide</a> (WIP) on branded elements.</p>
+
+                    <p><i class="material-icons">visibility</i> <a href="https://electric-glamorous-barometer.glitch.me/" target="_blank">Theme Preview</a></p>
+
+                    <p>A Sass file is used to define the SpaceStation theme. It is expected that the class names from Material Design is strictly followed, so that changing in style should introduce no implication to the development.</p>
+
+                    <p><i class="material-icons">cloud_download</i> <a href="my-theme.scss" download="my-theme.scss">Download Stylesheet (.scss)</a>
+
+            </div>
+            <br>
+
+
+
+            <div class="w3-container w3-theme-l4 w3-border-theme">
+                <h5>Development </h5>
+            </div>
+            <div class="w3-container w3-theme-l4 ">
+
+<p>Material Design provides sample codes to be use to <a href="https://material.io/develop/web" target="_blank">develop</a>  the UX and UI.</p>
+<<<<<<< HEAD
+<p>For development with React, please refer to <a href="https://material-ui.com/" target="_blank">Material UI.</a>
+=======
+>>>>>>> d8f0f99d8d6acaa18668ac531a422bd2363af5ad
+                <p>With the content information from the wireframes, the styling from the Sass file, and the code from Material Design, development team should be able to produce the frontend pages.
+                <p>By following the design guidelines and using the code provided, we expect that we can provide with our users a more sophisicated and finer crafted experience (e.g. transition, animation effects).</p>
+
+            </div>
+            <br>
+
+
+
+
+            <hr>
+            <h5>Change Log</h5>
+
+            <dt>2 July 2020</dt>
+            <dd>on my-theme.scss. Changed the Background Color to match the organization's branding colors.</dd>
+
+
+            <dt>29 June 2020</dt>
+            <dd>on my-theme.scss. Changed the Primary Color, Secondary Color and Text On Surface color to match the organization's branding colors.</dd>
+
+
+        </div>
+
+        <footer class="w3-container w3-theme" style="padding:32px">
+            <p>Footer information goes here</p>
+        </footer>
+
+    </div>
+
+    <script>
+        // Open and close the sidebar on medium and small screens
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+
+        // Change style of top container on scroll
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        function myFunction() {
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                document.getElementById("myTop").classList.add("w3-card-4", "w3-animate-opacity");
+                document.getElementById("myIntro").classList.add("w3-show-inline-block");
+            } else {
+                document.getElementById("myIntro").classList.remove("w3-show-inline-block");
+                document.getElementById("myTop").classList.remove("w3-card-4", "w3-animate-opacity");
+            }
+        }
+
+        // Accordions
+        function myAccordion(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+                x.previousElementSibling.className += " w3-theme";
+            } else {
+                x.className = x.className.replace("w3-show", "");
+                x.previousElementSibling.className =
+                    x.previousElementSibling.className.replace(" w3-theme", "");
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
